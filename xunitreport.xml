@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="1.701">
+  <testsuite name="main1.test.js" errors="0" failures="0" skipped="0" timestamp="2023-09-08T08:33:11" time="0.575" tests="2">
+    <testcase classname="ViewAll Component" name="should render the heading and Home button" time="0.192">
+    </testcase>
+    <testcase classname="ViewAll Component" name="should display the correct count of posts" time="0.054">
+    </testcase>
+  </testsuite>
+  <testsuite name="main.test.js" errors="0" failures="0" skipped="0" timestamp="2023-09-08T08:33:11" time="1.476" tests="9">
+    <testcase classname="Post Component" name="should render the post number and data" time="0.014">
+    </testcase>
+    <testcase classname="Post Component" name="should have white background color and padding of 10" time="0.002">
+    </testcase>
+    <testcase classname="Navigation Test" name="should initialize AsyncStorage when the component mounts" time="0.094">
+    </testcase>
+    <testcase classname="Navigation Test" name="should delete one post from AsyncStorage" time="0.083">
+    </testcase>
+    <testcase classname="Navigation Test" name="should navigate to ViewAll screen when button is pressed" time="0.096">
+    </testcase>
+    <testcase classname="Navigation Test" name="should post data to AsyncStorage" time="0.066">
+    </testcase>
+    <testcase classname="" name="should render correctly" time="0.016">
+    </testcase>
+    <testcase classname="" name="should reset text input after posting" time="0.062">
+    </testcase>
+    <testcase classname="" name="should clear AsyncStorage when deleting all posts" time="0.015">
+    </testcase>
+  </testsuite>
+</testsuites>
